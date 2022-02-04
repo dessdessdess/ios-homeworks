@@ -13,6 +13,10 @@
 		849E528327AD428700399297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E528127AD428700399297 /* Main.storyboard */; };
 		849E528527AD428800399297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E528427AD428800399297 /* Assets.xcassets */; };
 		849E528827AD428800399297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E528627AD428800399297 /* LaunchScreen.storyboard */; };
+		849E529227AD516300399297 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849E529127AD516300399297 /* ProfileView.xib */; };
+		849E529627AD60DB00399297 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E529527AD60DB00399297 /* ProfileView.swift */; };
+		849E529827AD645100399297 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E529727AD645100399297 /* Profile.storyboard */; };
+		849E529A27AD648900399297 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E529927AD648900399297 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		849E528427AD428800399297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849E528727AD428800399297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849E528927AD428800399297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849E529127AD516300399297 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		849E529527AD60DB00399297 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		849E529727AD645100399297 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		849E529927AD648900399297 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				849E527B27AD428700399297 /* AppDelegate.swift */,
 				849E527D27AD428700399297 /* SceneDelegate.swift */,
+				849E529727AD645100399297 /* Profile.storyboard */,
+				849E529927AD648900399297 /* ProfileViewController.swift */,
 				849E527F27AD428700399297 /* ViewController.swift */,
 				849E528127AD428700399297 /* Main.storyboard */,
 				849E528427AD428800399297 /* Assets.xcassets */,
 				849E528627AD428800399297 /* LaunchScreen.storyboard */,
 				849E528927AD428800399297 /* Info.plist */,
+				849E529127AD516300399297 /* ProfileView.xib */,
+				849E529527AD60DB00399297 /* ProfileView.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849E529227AD516300399297 /* ProfileView.xib in Resources */,
 				849E528827AD428800399297 /* LaunchScreen.storyboard in Resources */,
+				849E529827AD645100399297 /* Profile.storyboard in Resources */,
 				849E528527AD428800399297 /* Assets.xcassets in Resources */,
 				849E528327AD428700399297 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849E529627AD60DB00399297 /* ProfileView.swift in Sources */,
 				849E528027AD428700399297 /* ViewController.swift in Sources */,
+				849E529A27AD648900399297 /* ProfileViewController.swift in Sources */,
 				849E527C27AD428700399297 /* AppDelegate.swift in Sources */,
 				849E527E27AD428700399297 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,11 +305,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCTAAMGQP5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -317,11 +334,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCTAAMGQP5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
