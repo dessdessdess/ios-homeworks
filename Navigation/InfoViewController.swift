@@ -14,12 +14,11 @@ class InfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.saveButton.setTitle("Сохранить", for: .normal)
     }
     
     @IBAction func saveButtonTapped(_ sender: UIButton) {
-        
+         
         let alert = UIAlertController(title: "Внимание",
                                     message: "Сохранить изменения?",
                                       preferredStyle: UIAlertController.Style.alert)
